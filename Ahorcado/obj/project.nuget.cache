@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AQsB0HtEbLs=",
+  "success": true,
+  "projectFilePath": "/home/cabster/RiderProjects/Ahorcado/Ahorcado/Ahorcado.csproj",
+  "expectedPackageFiles": [
+    "/home/cabster/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

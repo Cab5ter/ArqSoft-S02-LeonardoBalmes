@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cabster/RiderProjects/Ahorcado/Ahorcado/Ahorcado.csproj": {}
+  },
+  "projects": {
+    "/home/cabster/RiderProjects/Ahorcado/Ahorcado/Ahorcado.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cabster/RiderProjects/Ahorcado/Ahorcado/Ahorcado.csproj",
+        "projectName": "Ahorcado",
+        "projectPath": "/home/cabster/RiderProjects/Ahorcado/Ahorcado/Ahorcado.csproj",
+        "packagesPath": "/home/cabster/.nuget/packages/",
+        "outputPath": "/home/cabster/RiderProjects/Ahorcado/Ahorcado/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cabster/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[10.0.4, 10.0.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
