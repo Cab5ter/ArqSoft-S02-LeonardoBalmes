@@ -5,3 +5,4 @@ namespace Ahorcado
         string ObtenerPalabraAleatoria();
     }
 }
+//Hola
