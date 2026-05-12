@@ -83,4 +83,5 @@ namespace Ahorcado
             Console.WriteLine(etapas[6 - _intentosRestantes]);
         }
     }
+    //Que onda profe
 }
