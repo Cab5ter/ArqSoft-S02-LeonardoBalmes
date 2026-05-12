@@ -1,5 +1,7 @@
-namespace Ahorcado;
-
-public class IRepositorioPalabras
+namespace Ahorcado
 {
-    
+    public interface IRepositorioPalabras
+    {
+        string ObtenerPalabraAleatoria();
+    }
+}
