@@ -30,3 +30,4 @@ namespace Ahorcado
         public bool Perdido() => _intentosRestantes <= 0;
     }
 }
+//Hola
