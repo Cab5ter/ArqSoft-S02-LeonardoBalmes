@@ -1,5 +1,7 @@
-# Ahorcado — Violaciones SOLID en Juego.cs
+# README    DE LA VIBORITA
 
-- **S:** La clase maneja lógica, UI y palabras a la vez.
-- **O:** Las palabras están hardcodeadas.
-- **D:** Depende directamente de `Console`.
+Este es el  readme de la viborita
+- De qye trata
+- Que hicieron
+- Como funciona
+- Clausula de IA
