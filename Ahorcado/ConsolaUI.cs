@@ -17,7 +17,7 @@ namespace Ahorcado
             foreach (char c in _motor.PalabraSecreta)
                 Console.Write(_motor.LetrasUsadas.Contains(c) ? c : '_');
             Console.WriteLine();
-            if (_motor.MostrarPista)
+            if (_motor.IntentosRestantes <= 3)
                 Console.WriteLine($"Pista: la palabra empieza con '{_motor.PalabraSecreta[0]}'");
         }
         
@@ -27,6 +27,18 @@ namespace Ahorcado
             return Console.ReadLine()[0];
         }
         public void MostrarMensaje(string mensaje) => Console.WriteLine(mensaje);
+        public static string PedirCategoria(IEnumerable<string> categorias)
+        {
+            var lista = categorias.ToList();
+            Console.WriteLine("Elige una categoría:");
+            for (int i = 0; i < lista.Count; i++)
+                Console.WriteLine($"  {i + 1}. {lista[i]}");
+            Console.Write("Opción: ");
+            if (int.TryParse(Console.ReadLine(), out int opcion) && opcion >= 1 && opcion <= lista.Count)
+                return lista[opcion - 1];
+            return lista[0];
+        }
+
         public bool PreguntarOtraVez()
         {
             Console.Write("\n¿Jugar otra vez? (s/n): ");
